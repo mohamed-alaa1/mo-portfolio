@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { style } from "../style";
 import { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
+import { style } from "../style";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -35,7 +35,7 @@ const Navbar = () => {
             className="h-10 w-10 object-contain"
           />
           <p className="block text-[18px] font-bold text-white">
-            AliMo<span className="text-identity">.</span>
+            Mohamed<span className="text-identity">.</span>
           </p>
         </Link>
         <ul className="hidden items-center gap-10 sm:flex">

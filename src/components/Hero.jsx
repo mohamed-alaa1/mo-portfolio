@@ -1,7 +1,7 @@
+import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import { style } from "../style";
 import { ComputersCanvas } from "./canvas";
-import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -10,23 +10,27 @@ const Hero = () => {
         className={`${style.paddingX} absolute inset-0 top-[120px] mx-auto flex max-w-7xl items-start gap-5`}
       >
         <div className="mt-5 flex flex-col items-center justify-center">
-          <div className="bg-identity h-5 w-5 rounded-full" />
+          <div className="h-5 w-5 rounded-full bg-identity" />
           <div className="blue-gradient h-40 w-1 sm:h-80" />
         </div>
 
         <div className="flex flex-col items-start">
           <h1 className={`${style.heroHeadText}`}>
-            Hi, I&apos;m <span className="text-identity">Ali</span>{" "}
+            Hi, I&apos;m <span className="text-identity">Mohamed</span>{" "}
           </h1>
           <p className={`${style.heroSubText} mt-2 text-white-100`}>
-            I develope{" "}
-            <span className="text-identity font-bold">
+            I&apos;m{" "}
+            <span className="font-bold text-identity">
               <Typewriter
-                words={["3D Visuals", "User Interfaces", "Web Applications"]}
+                words={[
+                  "Java Developer",
+                  " Database Expert",
+                  "Backend Developer",
+                ]}
                 loop
                 cursor
                 cursorBlinking
-                cursorColor="#2257bf"
+                cursorColor="#f04e5e"
               />
             </span>
           </p>

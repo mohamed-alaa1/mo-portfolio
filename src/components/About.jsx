@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { style } from "../style";
 import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 import { Wrapper } from "../HigherOC";
+import { style } from "../style";
+import { fadeIn, textVariant } from "../utils/motion";
 import ServiceCard from "./ServiceCard";
 
 const About = () => {
@@ -21,11 +21,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 max-w-3xl text-center text-[17px] leading-[30px] text-secondary md:text-left"
       >
-        I&apos;m a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Next.JS, and
-        Three.js. I&apos;m a quick learner and collaborate closely with clients
-        to create efficient, and user-friendly solutions that solve real-world
-        problems. Let&apos;s work together to bring your ideas to life!
+        I&apos;m a skilled software developer with experience in JAVA and
+        PostgreSQL, and expertise in frameworks like SpringBOOT and Node.JS
+        I&apos;m a quick learner and collaborate closely with clients to create
+        efficient, and user-friendly solutions that solve real-world problems.
+        Let&apos;s work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-10 md:mt-24 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

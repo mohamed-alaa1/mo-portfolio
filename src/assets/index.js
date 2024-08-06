@@ -1,58 +1,39 @@
 import backend from "./backend.png";
 import creator from "./creator.png";
+import external_link from "./external_link.svg";
+import github from "./github.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
-import external_link from "./external_link.svg";
 
-import css from "./tech/css.png";
-import figma from "./tech/figma.png";
+import profile from "./company/profile.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import java from "./tech/icons8-java-240.png";
+import mysql from "./tech/icons8-my-sql-240.png";
+import node from "./tech/icons8-nodejs-240.png";
+import postgresql from "./tech/icons8-postgresql-240.png";
+import postman from "./tech/icons8-postman-api-256.png";
+import SpringBoot from "./tech/icons8-spring-boot-240.png";
 import photoshop from "./tech/photoshop.png";
 import premiere from "./tech/premiere-pro.png";
 
-import profile from "./company/profile.png";
-
-import hilink from "./hilink.png";
-import doob from "./doob.png";
-import kasper from "./kasper.png";
-import leon from "./leon.png";
-import nord from "./nord.png";
-import animatedTemplate from "./animated-template.png";
-import personalDashboard from "./personal-dashboard.png";
 import goAcademy from "./goAcademy.png";
 
 export {
-  profile,
+  SpringBoot,
   backend,
   creator,
-  mobile,
-  web,
-  github,
-  css,
-  figma,
-  git,
-  html,
-  javascript,
-  reactjs,
-  tailwind,
-  typescript,
-  threejs,
-  hilink,
-  doob,
-  leon,
-  nord,
-  animatedTemplate,
-  personalDashboard,
-  goAcademy,
-  kasper,
   external_link,
+  git,
+  github,
+  goAcademy,
+  java,
+  mobile,
+  mysql,
+  node,
   photoshop,
+  postgresql,
+  postman,
   premiere,
+  profile,
+  web,
 };
